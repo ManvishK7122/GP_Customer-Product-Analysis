@@ -92,3 +92,6 @@ SELECT productCode, SUM(quantityOrdered* priceEach) AS product_performance
  ORDER BY product_performance DESC
  LIMIT 10;
 ```
+
+Q2: How should we tailor marketing and communication strategies to customer behaviors?
+
