@@ -74,4 +74,21 @@ SELECT p.productCode, ROUND(SUM(quantityOrdered* priceEach),2) AS product_perfor
  ORDER BY product_performance DESC
  LIMIT 10;
 ```
+Product Restocking Priority:
+```sql
+WITH 
+low_stock_products AS (
+SELECT productCode, ROUND(SUM(quantityOrdered) *1.0 /(SELECT  quantityInStock FROM products p WHERE od.productCode=p.productCode),2) AS low_stock		 
+  FROM orderdetails od
+ GROUP BY productCode
+ ORDER BY low_stock DESC
+ LIMIT 10
+)
 
+SELECT productCode, SUM(quantityOrdered* priceEach) AS product_performance
+  FROM orderdetails od
+ WHERE productCode IN (SELECT productCode FROM low_stock_products)
+ GROUP BY productCode 
+ ORDER BY product_performance DESC
+ LIMIT 10;
+```
