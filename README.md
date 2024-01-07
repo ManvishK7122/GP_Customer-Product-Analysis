@@ -176,6 +176,7 @@ Through the data mining previously explained before, we are able to decifer 3 ma
 
 Q1: Which products should we order more of or less of?
 
+Restock Priority: 
 | Product Name  | Type of Car | 
 | ------------- | ------------- |
 | 1952 Alpine Renault 1300 | Classic Cars |
@@ -188,4 +189,28 @@ Q1: Which products should we order more of or less of?
 | 1917 Grand Touring Sedan | Vintage Cars |
 | 1998 Chrysler Plymouth Prowler | Classic Cars |
 | 1992 Ferrari 360 Spider red |	Classic Cars |
+
+In this case, Classic Cars should be a priority for restock. 
+
+Q2: How should we tailor marketing and communication strategies to customer behaviors?
+
+Most Engaged Customers: 
+
+| LastName | FirstName | City | Country   | Profit    |
+|-----------------|------------------|------------|-----------|-----------|
+| Freyre          | Diego            | Madrid     | Spain     | $326,519.66 |
+| Nelson          | Susan            | San Rafael | USA       | $236,769.39 |
+| Young           | Jeff             | NYC        | USA       | $72,370.09  |
+| Ferguson        | Peter            | Melbourne  | Australia | $70,311.07  |
+| Labrune         | Janine           | Nantes     | France    | $60,875.30  |
+
+Least Engaged Customers:
+
+| Last Name | First Name | City | Country | Profit   |
+|-----------------|------------------|------------|---------|----------|
+| Young           | Mary             | Glendale   | USA     | $2,610.87  |
+| Taylor          | Leslie           | Brickhaven | USA     | $6,586.02  |
+| Ricotti         | Franco           | Milan      | Italy   | $9,532.93  |
+| Schmitt         | Carine           | Nantes     | France  | $10,063.80 |
+| Smith           | Thomas           | London     | UK      | $10,868.04 |
 
