@@ -221,4 +221,4 @@ After calculating our budget for acquiring new customers, our average revenue pe
 
 | Average Revenue Per Customer |
 |:------------:|
-| $39,039.594388 |
+| $39,039.59 |
