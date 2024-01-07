@@ -173,7 +173,7 @@ SELECT o.customerNumber, SUM(quantityOrdered * (priceEach - buyPrice)) AS revenu
  ```
 
 ### Conclusion
-Through the data mining previously explained before, we are able to decifer 3 major aspects of this car business
+Through the data mining previously explained before, we are able to decifer 3 major aspects of this car business, which are:
 
 Q1: Which products should we order more of or less of?
 
